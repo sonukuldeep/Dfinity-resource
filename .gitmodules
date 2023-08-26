@@ -1,0 +1,3 @@
+[submodule "typescript-bootcamp"]
+	path = typescript-bootcamp
+	url = git@github.com:Code-and-State/typescript-bootcamp.git
