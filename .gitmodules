@@ -1,3 +1,6 @@
 [submodule "typescript-bootcamp"]
 	path = typescript-bootcamp
 	url = git@github.com:Code-and-State/typescript-bootcamp.git
+[submodule "auth-client-demo"]
+	path = auth-client-demo
+	url = git@github.com:krpeacock/auth-client-demo.git
