@@ -7,6 +7,18 @@
 Check how to implement auth from auth.md file and [this repo](https://github.com/krpeacock/auth-client-demo)
 Link also in the docs
 
+## Important commands
+```js
+dfx wallet --network ic balance //check balance
+dfx deploy frontend --argument="(principal \"bkyz2-fmaaa-aaaaa-qaaaq-cai\")" // passing arguments
+dfx identity get-principal // get principal
+dfx wallet --network ic balance // check cycles
+dfx deploy --network ic //deploy on ic
+```
+There is a  possibiblty it will fail to deploy first time. try deploying seperately again in that case
+Visit this for frontend:-  https://&lt;frontend canister id&gt;.icp0.io
+Visit this for backend candid ui:-  https://a4gq6-oaaaa-aaaab-qaa4q-cai.raw.icp0.io/?id=&lt;backend canister id&gt;
+
 ## Important files
 ```css
 lib
